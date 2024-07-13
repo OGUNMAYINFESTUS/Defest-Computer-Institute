@@ -1,0 +1,175 @@
+/* STYLING UNIVERSAL  */
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* STYLING UNIVERSAL DONE  */
+
+/* STYLING THE HEADER  */
+.header{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: #6a1b9a;
+}
+.header h2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.logo {
+    padding-left: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: block;
+}
+.logo h2{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 500px;
+    text-transform: uppercase;
+}
+.logo h2:hover{
+    text-decoration: underline;
+    color: red;
+}
+.logo img{
+    height: 150px;
+    width: 150px;
+    border-radius: 5%;
+    margin-left: 90px;
+    border-radius: 50%;
+}
+
+.navba{
+    padding-left: 50%;
+    padding-top: 8%;
+}
+.navba li{
+    display: inline;
+}
+
+.navba a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500px;
+    margin-left: 2%;
+}
+.navba ul li a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+/* STYLING THE HEADER DONE  */
+
+/* STYLING FOOTER  */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 1.5rem;
+}
+
+/* Footer styles */
+#footer {
+    background-color: #6a1b9a;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-left h3 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.footer-left p {
+    margin-top: 10px;
+    font-size: large;
+}
+
+.footer-right p {
+    margin: 5px;
+    text-decoration: underline;  
+    font-size: large; 
+}
+
+.footer-right ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 3px;
+    font-size: large;
+}
+
+.footer-right li {
+    margin-bottom: 5px;
+}
+.copy{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+/* STYLING FOOTER DONE  */
+
+
+/* STYING OUR CONTACT FORM  */
+.contact {
+    margin-bottom: 5%;
+    margin-top: 10px;
+}
+
+.contact-us {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contactbox {
+    flex-basis: 60%;
+    margin: 3px;
+
+}
+
+.map {
+    height: 50vh;
+    width: 60vh;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.contact .contact-content h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    font-size: 3rem;
+    padding-top: 2rem;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.contact .contact-content .address-holder {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    line-height: 2.0rem;
+    padding-top: 1.2rem;
+    padding-right: 5rem;
+}
+
+
+
+
+
+/* STYLING OUR CONTACT FORM DONE  */

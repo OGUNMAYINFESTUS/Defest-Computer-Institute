@@ -1,0 +1,293 @@
+
+/* STYLING UNIVERSAL  */
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* STYLING UNIVERSAL DONE  */
+
+/* STYLING THE HEADER  */
+.header{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: #6a1b9a;
+}
+.header h2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.logo {
+    padding-left: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: block;
+}
+.logo h2{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 500px;
+    text-transform: uppercase;
+}
+.logo h2:hover{
+    text-decoration: underline;
+    color: red;
+}
+.logo img{
+    height: 150px;
+    width: 150px;
+    border-radius: 5%;
+    margin-left: 90px;
+    border-radius: 50%;
+}
+
+.navba{
+    padding-left: 50%;
+    padding-top: 8%;
+}
+.navba li{
+    display: inline;
+}
+
+.navba a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500px;
+    margin-left: 2%;
+}
+.navba ul li a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+/* STYLING THE HEADER DONE  */
+
+/* STYLING OUR BANNER  */
+#banner-head{
+    background-image: url(/festus.jpg);
+    color: black;
+    padding: 50px 20px;
+    background-size: cover;
+    background-position: center;
+}
+#banner-head h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#banner-head p{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
+#banner-head h1:hover{
+    transform: scale(1.05);
+    color: red;
+    text-decoration: underline;
+}
+#banner-head p:hover{
+    transform: scale(1.0);
+    color: #6a1b9a;
+    text-transform: uppercase;
+}
+.action-button{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.4s;
+    margin-left: 45%;
+}
+.action-button:hover{
+    background-color: #0056b3;
+}
+.features{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: lightgray;
+}
+.feature{
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+.feature:hover {
+    transform: scale(1.08);
+    box-shadow: 0 4px 8px rebeccapurple;
+    background-color: purple;
+    color: #fff; 
+}
+
+.feature h2:hover{
+    transform: scale(1.0);
+    box-shadow: 0 4px 8px rebeccapurple;
+    background-color: purple;
+    color: #fff; 
+}
+
+
+
+.feature ul li{
+    list-style: none;
+    font-size: 18px;
+    padding: 5px;
+    
+}
+.feature h2{
+    font-size: 30px;
+    color: red;
+}
+.feature p{
+    font-size: 20px;
+}
+/* STYLING BANNER DONE  */
+
+/* STYLING MISSION STATEMENT  */
+.mission img{
+    height: 350px;
+    width: 350px;
+    border-radius: 100%;
+}
+.mission{
+    padding-right: 40%;
+    padding-top: 20px;
+    margin: 30px;
+    text-align: center;
+}
+.mission h2{
+    color: red;
+    font-size: 3rem;
+    padding: 5px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.mission p{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 10px;
+}
+
+.mission img:hover{
+    transform: scale(1.05);
+    
+}
+.mission h2:hover{
+    text-decoration: underline;
+    transform: scale(1.05);
+    color: #6a1b9a;
+    
+}
+/* STYLING MISSION STATEMENT DONE  */
+
+/* STYLING VISION STATEMENT  */
+.vision{
+    padding-left: 40%;
+    padding-top: 20px;
+    margin: 30px;
+    text-align: center;
+}
+.vision img {
+    height: 350px;
+    width: 350px;
+    border-radius: 100%;
+}
+.vision h2 {
+    color: red;
+    font-size: 3rem;
+    padding: 5px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.vision p {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 10px;
+}
+.vision img:hover {
+    transform: scale(1.05);
+
+}
+.vision h2:hover {
+    text-decoration: underline;
+    transform: scale(1.05);
+    color: #6a1b9a;
+}
+/* STYLING VISION STATEMENT DONE */
+
+/* STYLING FOOTER  */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 1.5rem;
+}
+
+/* Footer styles */
+#footer {
+    background-color: #6a1b9a;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-left h3 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.footer-left p {
+    margin-top: 10px;
+    font-size: large;
+}
+
+.footer-right p {
+    margin: 5px;
+    text-decoration: underline;  
+    font-size: large; 
+}
+
+.footer-right ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 3px;
+    font-size: large;
+}
+
+.footer-right li {
+    margin-bottom: 5px;
+}
+.copy{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+/* STYLING FOOTER DONE  */
+

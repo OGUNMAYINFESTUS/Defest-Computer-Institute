@@ -1,0 +1,516 @@
+/* STYLING UNIVERSAL  */
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+/* STYLING UNIVERSAL DONE  */
+
+/* STYLING THE HEADER  */
+.header{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: #6a1b9a;
+}
+.header h2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.logo {
+    padding-left: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: block;
+}
+.logo h2{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 500px;
+    text-transform: uppercase;
+}
+.logo h2:hover{
+    text-decoration: underline;
+    color: red;
+}
+.logo img{
+    height: 150px;
+    width: 150px;
+    border-radius: 5%;
+    margin-left: 90px;
+    border-radius: 50%;
+}
+.navba{
+    padding-left: 50%;
+    padding-top: 8%;
+}
+.navba li{
+    display: inline;
+}
+.navba a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500px;
+    margin-left: 2%;
+}
+.navba ul li a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+/* STYLING THE HEADER DONE  */
+
+/* STYLING THE SERVICE PAGE  */
+
+/* SECTION ONE START  */
+#web-container {
+  display: flex;
+  padding-top: 5rem;
+  max-width: 100%;
+}
+
+#web-site {
+  padding-left: 5rem;
+} 
+#web-site h1:hover{
+    color: #6a1b9a;
+}
+#web-site p{
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  font-weight: bold; 
+}
+
+#web-site h1{
+  font-size: 11rem;
+  font-weight: bolder;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  color: purple;
+  line-height: 10rem;
+}
+
+#web-site h4{
+  font-size: 5.5rem;
+  font-weight: bolder;
+  text-transform: capitalize;
+  line-height: 5rem;  
+  padding-bottom: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#web-site h5{
+  font-size: 1.5rem;
+  padding-top: 2rem;
+  text-align: justify;
+  padding-right: 30px;
+  line-height: 3rem;
+
+}
+
+#web-img img {
+  height: 600px;
+  width: 600px;
+  
+}
+
+/* SECTION TWO START  */
+.service {
+  text-align: center;
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.title{
+  background-color: purple;
+  padding: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 5rem;
+  color: white;
+}
+
+.sub-heading {
+  text-align: center;
+  font-size: 40px;
+  color: bl;
+}
+.offer {
+  font-size: 30px;
+  color: #9e011c;
+}
+.box-1 ul li {
+  list-style: none;
+}
+.container1 .box-1 img {
+  height: 200px;
+  width: 270px;
+  padding: 5px;
+  margin: 5px;
+  background-color: chartreuse;
+  border-radius: 3%;
+}
+.container1{
+    background-image: url(/festus.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box-1 :hover{
+    transform: scale(1.08);
+}
+#image:hover{
+    transform: scale(1.05);
+    
+}
+
+#business:hover{
+    transform: scale(1.08);
+    background-color: pur;
+    color: black;
+}
+#computer{
+    font-size: 1.5rem;
+    color: white;
+    background-color: #980217;
+    border-radius: 5%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#basics{
+    color: black;
+    font-size: 1.2rem;
+    list-style-type: disc;
+    text-align: justify;
+    padding-left: 40px;
+}
+
+#desktop{
+    color: black;
+    font-size: 1.2rem;
+    list-style-type: disc;
+    text-align: justify;
+    padding-left: 40px;
+}
+
+#desktop-h2{
+    font-size: 1.5rem;
+    color: white;
+    background-color: #980217;
+    border-radius: 5%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#carel{
+    font-size: 1.5rem;
+    color: white;
+    background-color: #980217;
+    border-radius: 5%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#carel-ol{
+    color: black;
+    font-size: 1.2rem;
+    list-style-type: disc;
+    text-align: justify;
+    padding-left: 40px;
+}
+
+#engine-h2{
+    font-size: 1.5rem;
+    color: white;
+    background-color: #980217;
+    border-radius: 5%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#engine-ol{
+    color: black;
+    font-size: 1.2rem;
+    list-style-type: disc;
+    text-align: justify;
+    padding-left: 40px;
+}
+
+#front-h2{
+    font-size: 1.5rem;
+    color: white;
+    background-color: #980217;
+    border-radius: 5%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#front-ol{
+    color: black;
+    font-size: 1.2rem;
+    list-style-type: disc;
+    text-align: justify;
+    padding-left: 40px;
+}
+
+#back-h2{
+    font-size: 1.5rem;
+    color: white;
+    background-color: #980217;
+    border-radius: 5%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#back-ol{
+    color: black;
+    font-size: 1.2rem;
+    list-style-type: disc;
+    text-align: justify;
+    padding-left: 40px;
+}
+#full-h2{
+    font-size: 1.5rem;
+    color: white;
+    background-color: #980217;
+    border-radius: 5%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#full-ol{
+    color: black;
+    font-size: 1.2rem;
+    list-style-type: disc;
+    text-align: justify;
+    padding-left: 40px;
+}
+
+#data-h2{
+    font-size: 1.5rem;
+    color: white;
+    background-color: #980217;
+    border-radius: 5%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#data-ol{
+    color: black;
+    font-size: 1.2rem;
+    list-style-type: disc;
+    text-align: justify;
+    padding-left: 40px;
+}
+/* SECTION TWO END  */
+#sub-heading{
+    background-color: purple;
+    color: white;
+    padding: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 3rem;
+    text-align: center;
+    border-radius: 5rem;
+}
+#business-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem;
+    background-color:whitesmoke;
+}
+#business{
+    font-size: 1.2rem;
+    color: black;
+    text-align: justify;
+    background-color: purple;
+    border-radius: 5rem;
+    padding: 70px;
+    color: #fff;
+}
+#business-h1{
+    text-align: justify;
+    margin-top: 1rem;
+}
+#business-ul{
+    list-style-type: circle;
+    line-height: 3rem;
+    padding-left: 30px;
+    font-size: 2rem;
+}
+#image img{
+    border-radius: 20%;
+    width: 500px;
+    height: 500px;
+}
+.business-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem;
+    margin-bottom: 5rem;
+    
+}
+.business{
+    font-size: 1.2rem;
+    color: black;
+    text-align: justify;
+    background-color: purple;
+    border-radius: 5rem;
+    padding: 70px;
+    color: #fff;
+
+}
+.business-h1{
+    text-align: justify;
+    margin-top: 1rem;
+}
+.business-ul{
+    list-style-type: circle;
+    line-height: 3rem;
+    padding-left: 30px;
+    font-size: 2rem;
+}
+.image img{
+    border-radius: 20%;
+    width: 500px;
+    height: 500px;
+}
+.content-3 {
+  background-color: chartreuse;
+  width: 100%;
+  height: 50%;
+  padding: 10px;
+  margin: 10px;
+}
+.container1 {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  padding: 5%;
+  text-align: center;
+  color: red;
+  margin-bottom: 0%;
+}
+.container2 {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  padding: 5%;
+  text-align: center;
+  color: red;
+  margin-top: 0%;
+  margin-bottom: 5%;
+  background-image: url(/liquid-blue.jpeg);
+  background-position: center;
+  background-size: cover;
+
+}
+.container2 .box-1 img {
+  height: 200px;
+  width: 250px;
+  padding: 5px;
+  margin: 5px;
+  background-color: chartreuse;
+  border-radius: 5%;
+}
+
+/* STYLING THE SERVICE PAGE DONE */
+
+/* Footer styles */
+#footer {
+    background-color: #6a1b9a;
+    color: #fff;
+    padding: 30px 0;
+}
+/* STYLING FOOTER  */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  font-size: 1.5rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-left h3 {
+    margin: 0;
+    font-size: 30px;
+}
+.footer-left p {
+    margin-top: 10px;
+    font-size: large;
+}
+.footer-right p {
+    margin: 5px;
+    text-decoration: underline;  
+    font-size: large; 
+}
+.footer-right ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 3px;
+    font-size: large;
+}
+.footer-right li {
+    margin-bottom: 5px;
+}
+.copy{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+/* STYLING FOOTER DONE  */
+@media screen and (max-width:600px){
+
+.footer-content {
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+}
+#sub-heading{
+ 
+    margin-left: 0;
+    margin-right: 0;
+
+}
+.business-container{
+    flex-direction: column;
+    width: 100%;
+    /* justify-content: space-around;
+    padding: 5rem;
+    margin-bottom: 5rem; */
+    
+}
+
+.business{
+    font-size: 1.2rem;
+    color: black;
+    text-align: justify;
+    background-color: purple;
+    border-radius: 5rem;
+    padding: 70px;
+    color: #fff;
+
+}
+.business-h1{
+    text-align: justify;
+    margin-top: 1rem;
+}
+.business-ul{
+    list-style-type: circle;
+    line-height: 3rem;
+    padding-left: 30px;
+    font-size: 2rem;
+}
+.image img{
+    border-radius: 20%;
+    width: 100%;
+    height: 300px;
+}
+}
